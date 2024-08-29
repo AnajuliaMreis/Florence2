@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(img/florback.png.jpg);
+ }
+ 
+ 
+ h1 {
+    font-family: "Yesteryear", cursive;
+    font-weight: 500px;
+    font-style: normal;
+   font-display: 5px;
+   display: inline-block;
+   }
+   
+ 
+ header {
+ padding: 2px;
+ box-shadow: 10px 10px 10px black;
+ text-align: center;
+ background-color: rgb(139,205,81); 
+ 
+ }
+ 
+  header > h1 {
+    color:black
+ 
+ }
+ 
+ 
+ 
+ 
+ img {
+     border-radius: 30px;
+ }
+ 
+ .img {
+  border-radius: 20px;
+  position:absolute;
+  top: 10px;
+  left: 20px;
+ 
+ }
+ 
+ .quemsomos {
+    width:700px; 
+    height:420px;
+    background-color: rgb(230, 213, 192);
+    padding: 5px;
+    border: 3px solid black;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    }
+    
+ 
+ .quemsomos > p {
+ font-size: 34px;
+ 
+ }
+ 
+  aside {
+ position: absolute;
+ top: 155px;
+ left: 740px;
+  }
+ 
+ #qm2 {
+ position: relative;
+ top: 50px;
+ font-size: 40px;
+ padding: 10px;
+ 
+ }
+ 
+  .historia > p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 50px;
+ position: absolute;
+ top: 680px;
+ left: 10px;
+ padding: 5px;
+ }
+ 
+  
+  p {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-style: normal;
+     font-weight: 100;
+      font-size: 2em ;
+      }
+  
+ 
+     main {
+         background-color: rgb(219, 0, 106);
+         border-radius: 5px;
+     }
+ 
+  
+  footer {
+     text-align: center;
+     padding: 2px;
+  box-shadow: 10px 10px 10px, 10px black;
+  background-image: url(img/florback.png.jpg);
+  
+  }
+ 
+ 
+    .familia {
+    position: relative;
+    top: 20px;
+    left: 620px;
+    }
+ 
+    #historia {
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       font-size: 30px;
+       padding: 10px;
+       background-color: rgb(130, 106, 237);
+       margin:5px;
+       text-align: center;
+       position: relative;
+       top: 20px;
+       
+     }
+ 
+     .section2{
+ background-color: rgb(230, 213, 192);
+ margin: 20px;
+ padding: 10px;
+     }
+  
+ #his2 {
+    background-color:  rgb(10, 173, 255);
+ position: absolute;
+ width: 600px;
+ height: 550px;
+ top: 1650px;
+ left: 30px;
+ padding: 10px;
+ font-size: 37px;
+ border-radius: 30px;
+ }
+ 
+ 
+ #diferenciais {
+ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       font-size: 30px;
+       padding: 10px;
+       background-color: rgb(130, 106, 237);
+       margin:5px;
+       text-align: center;
+       position: relative;
+       top: 20px;
+ }
+ 
+ 
+  footer > p {
+  
+  color:rgb(255, 255, 255)
+  
+  }
+  
+  body {
+     background-color: rgb(255, 255, 255);
+  }
+  
+  nav {
+    background-image: url(img/florback.png.jpg); padding: 10px;
+  border-radius: 10px;
+  gap: 50px;
+ 
+  }
+ nav > a {
+    row-gap: 50px;
+    color:aliceblue;
+    font-family:  "Yesteryear", cursive;
+    margin-left: 100px;
+    margin-right: 100px;
+ 
+ }
+ 
+  nav > a:hover{
+       color:rgb(10, 173, 255);
+    }
+  
+ 
+ ul {
+ background-color: rgb(139,205,81);
+ margin: 20px;
+ text-align: center;
+ position: relative;
+ top: 10px;
+ 
+ }
+ 
+  @media screen and (max-width: 500px) {
+    h1 {
+ font-weight: 800px;
+    }
+ 
+ main{
+    
+    border-radius: 5px;
+ display: inline-block;
+ }
+ 
+ img {
+    position: relative;
+    display: block;
+ }
+ 
+  nav {
+    background-image: url(img/florback.png.jpg); padding: 10px;
+  border-radius: 10px;
+  gap: 50px;
+ 
+  }
+ }

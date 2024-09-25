@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=".script.js"></script>
     <title>Florence</title>
   
 <style>
+
+    body {
+
+        background-color: rgb(230, 213, 192);
+    }
 
 h1 {
     font-family: "Yesteryear", cursive;
@@ -18,10 +24,10 @@ h1 {
  
  header {
  padding: 2px;
- box-shadow: 10px 10px 10px black;
+ background-image:url(img/banner.png.jpg);
+ box-shadow: 10px 10px 10px;
  text-align: center;
- background-color: rgb(139,205,81); 
- 
+ border-radius: 10px;
  }
  
   header > h1 {
@@ -36,14 +42,14 @@ h1 {
 
  
  nav {
-    background-image: url(img/florback.png.jpg); padding: 10px;
-  border-radius: 10px;
+        background-color: rgb(139,205,81); padding: 10px;
+    border-radius: 10px;
   gap: 50px;
  
   }
  nav > a {
     row-gap: 50px;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     font-family:  "Yesteryear", cursive;
     margin-left: 100px;
     margin-right: 100px;
@@ -61,17 +67,17 @@ h1 {
 </head>
 <body>
     <header>
-    <nav>
     <div class="img">
         <img src="img/logo.png" style="width:600" height="100">
-        </div>
-
+    </div>
+    <h1>Florence</h1>
+<nav>
         <a href="sobre.html" target="_blank" rel="external">Sobre a Florence</a>
         <a href="pedido.html" target="_blank" rel="external">Pedidos</a>
         <a href="cadastro.html" target="_blank" rel="external">Entre</a>
     </nav>
 
-    <h1>Florence</h1>
+ 
 </header>
 
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur porro voluptates, corrupti aliquam
